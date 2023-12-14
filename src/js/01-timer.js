@@ -16,10 +16,9 @@ const options = {
       buttonStart.classList.add(`is-active`);
     } else {
       iziToast.show({
-        message: 'Please choose a date in the future',
+        message: '❌ Please choose a date in the future',
         position: `topCenter`,
         color: `red`,
-        iconUrl: `../img/cancel_black_24dp.svg`,
       });
       buttonStart.classList.remove(`is-active`);
     }
