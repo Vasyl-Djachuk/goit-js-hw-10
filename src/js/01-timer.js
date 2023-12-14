@@ -1,4 +1,5 @@
 'use strict';
+import iziToast from 'izitoast';
 let userSelectedDate = 0;
 let interval;
 const buttonStart = document.querySelector(`button[data-start]`);
