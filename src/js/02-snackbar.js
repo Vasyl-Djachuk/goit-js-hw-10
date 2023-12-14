@@ -1,6 +1,6 @@
 'use strict';
 const form = document.querySelector(`.form`);
-
+import iziToast from 'izitoast';
 form.addEventListener(`submit`, event => {
   event.preventDefault();
   const status = event.target.elements.state.value;
